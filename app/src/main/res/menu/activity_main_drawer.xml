@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group
+        android:checkableBehavior="single"
+        android:title="@string/str_opcoes">
+        <item
+            android:id="@+id/nav_vagas"
+            android:icon="@drawable/ic_vagas"
+            android:title="@string/str_vagas" />
+        <item
+            android:id="@+id/nav_ideias"
+            android:icon="@drawable/ic_ideias"
+            android:title="@string/str_ideias" />
+        <item
+            android:id="@+id/nav_oportunidades"
+            android:icon="@drawable/ic_negocios"
+            android:title="@string/str_oportunidades" />
+        <item
+            android:id="@+id/nav_beneficios"
+            android:icon="@drawable/ic_beneficios"
+            android:title="@string/str_beneficios" />
+        <item
+            android:id="@+id/nav_administracao"
+            android:icon="@drawable/ic_management"
+            android:title="@string/str_administracao"
+            android:visible="false" />
+
+    </group>
+
+    <item android:title="@string/str_outras_opcoes">
+        <menu>
+            <group
+                android:checkableBehavior="single"
+                android:title="@string/str_outras_opcoes">
+                <item
+                    android:id="@+id/nav_eventos"
+                    android:icon="@drawable/ic_eventos"
+                    android:title="@string/str_eventos" />
+                <item
+                    android:id="@+id/nav_configuracoes"
+                    android:icon="@drawable/ic_settings"
+                    android:title="@string/str_configuracoes" />
+            </group>
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/ic_logout"
+                android:title="@string/str_sair" />
+        </menu>
+    </item>
+</menu>

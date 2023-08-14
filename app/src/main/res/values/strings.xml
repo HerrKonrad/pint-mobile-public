@@ -1,0 +1,438 @@
+<resources>
+    <!-- **************************** Início **************************** -->
+    <string name="app_name">Softinsa</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="str_textview">TextView</string>
+    <string name="str_imageview">ImageView</string>
+    <string name="str_image_button">ImageButton</string>
+    <string name="str_utilizador">Utilizador</string>
+    <string name="str_opcoes">Opções</string>
+    <string name="str_vagas">Vagas</string>
+    <string name="str_outras_opcoes">Outras Opções</string>
+    <string name="str_notificacoes">Notificações</string>
+    <string name="str_eventos">Eventos</string>
+    <string name="str_sair">Sair</string>
+    <string name="str_outros">Outros</string>
+
+    <!-- Início -->
+    <string name="str_iniciar_sessao">Iniciar sessão</string>
+    <string name="str_aguarde_reticencias">Aguarde…</string>
+    <string name="str_criar_conta">Criar conta</string>
+    <!-- **************************** Início **************************** -->
+
+
+    <!-- **************************** Conta **************************** -->
+    <!-- Login -->
+    <string name="str_email">E-mail</string>
+    <string name="str_palavra_passe">Palavra-passe</string>
+    <string name="str_esqueceu_palavra_passe"><u>Esqueceu-se da palavra-passe?</u></string>
+    <string name="str_iniciar_sessao_com">Iniciar sessão com</string>
+    <string name="str_nao_tem_uma_conta">Não tem uma conta?</string>
+    <string name="str_crie_uma_aqui">Crie uma aqui!</string>
+
+    <!-- Criar conta -->
+    <string name="str_email_asterisco">E-mail *</string>
+    <string name="str_nome_proprio_asterisco">Nome próprio *</string>
+    <string name="str_apelido_asterisco">Apelido *</string>
+    <string name="str_palavra_passe_asterisco">Palavra-passe *</string>
+    <string name="str_confirmar_palavra_passe_asterisco">Confirmar palavra-passe *</string>
+    <string name="str_data_nascimento_asterisco">Data de nascimento *</string>
+    <string name="str_genero_asterisco">Género *</string>
+    <string name="str_masculino">Masculino</string>
+    <string name="str_feminino">Feminino</string>
+    <string name="str_outro">Outro</string>
+    <string name="str_telefone_pessoal">Telefone pessoal</string>
+    <string name="str_localidade">Localidade</string>
+    <string name="str_criar_nova_conta">Criar nova conta</string>
+
+    <!-- Recuperar password -->
+    <string name="str_recuperar_palavra_passe">Recuperar palavra-passe</string>
+    <string name="str_encontrar_conta">Encontre a sua conta</string>
+    <string name="str_introduza_email_conta_asterisco">Introduza o e-mail da sua conta *</string>
+    <string name="str_email_conta">E-mail da sua conta</string>
+    <string name="str_enviar_ligacao_email">Enviar ligação para o e-mail</string>
+
+    <!-- Perfil -->
+    <string name="str_perfil">Perfil</string>
+    <string name="str_data_registo">Data de registo</string>
+    <string name="str_nome_asterisco">Nome *</string>
+    <string-array name="str_array_generos">
+        <item>Feminino</item>
+        <item>Masculino</item>
+        <item>Outro</item>
+    </string-array>
+    <string name="str_linkedin">Linkedin</string>
+    <string name="str_curriculo">Currículo</string>
+    <string name="str_foto">Foto</string>
+    <string name="str_atualizar_perfil">Atualizar perfil</string>
+    <!-- **************************** Conta **************************** -->
+
+
+    <!-- **************************** Vagas **************************** -->
+    <!-- Ver vagas disponíveis -->
+    <string name="str_vagas_disponiveis">Vagas disponíveis</string>
+    <string name="str_sem_permissoes">Sem permissões</string>
+    <string name="str_nome">Nome</string>
+    <string name="str_subtitulo">Subtítulo</string>
+
+    <!-- Recomendar vaga -->
+    <string name="str_nome_candidato_asterisco">Nome do candidato *</string>
+    <string name="str_email_candidato_asterisco">E-mail do candidato *</string>
+    <string name="str_telefone_candidato">Telefone do candidato</string>
+    <string name="str_linkedin_candidato">Linkedin do candidato</string>
+    <string name="str_curriculo_candidato">Currículo do candidato</string>
+    <string name="str_endereco_ficheiro">Endereço do ficheiro</string>
+    <string name="str_carregar_ficheiro">Carregar ficheiro</string>
+
+    <!-- Ver gerir vagas -->
+    <string name="str_gerir_vagas">Gerir vagas</string>
+    <string name="str_estado">Estado</string>
+    <string name="str_fabcreate">fabCreate</string>
+
+    <!-- Detalhes vaga -->
+    <string name="str_detalhes_vaga">Detalhes da vaga</string>
+    <string name="str_nome_vaga">Nome da vaga</string>
+    <string name="str_subtitulo_vaga">Subtítulo da vaga</string>
+    <string name="str_tipo_vaga">Tipo de vaga</string>
+    <string name="str_descricao_perfil">Descrição do perfil</string>
+    <string name="str_candidatar_me">Candidatar-me</string>
+    <string name="str_recomendar_vaga">Recomendar vaga</string>
+    <string name="str_editar_vaga">Editar vaga</string>
+
+    <!-- Criar vaga -->
+    <string name="str_criar_vaga">Criar vaga</string>
+    <string name="str_nome_vaga_asterisco">Nome da vaga *</string>
+    <string name="str_subtitulo_vaga_asterisco">Subtítulo da vaga *</string>
+    <string name="str_localidade_asterisco">Localidade *</string>
+    <string name="str_tipo_vaga_asterisco">Tipo de vaga *</string>
+    <string name="str_externo">Externo</string>
+    <string name="str_interno">Interno</string>
+    <string name="str_descricao_perfil_asterisco">Descrição do perfil *</string>
+    <!-- **************************** Vagas **************************** -->
+
+
+    <!-- **************************** Candidaturas **************************** -->
+    <!-- Ver candidaturas -->
+    <string name="str_candidaturas">Candidaturas</string>
+    <string name="str_vaga">Vaga</string>
+
+    <!-- Criar candidatura vaga -->
+    <string name="str_data_nascimento">Data de nascimento</string>
+    <string name="str_genero">Género</string>
+    <string name="str_curriculo_asterisco">Currículo *</string>
+    <string name="str_observacao_candidato"><b><u>Observação:</u></b> Por favor, certifique-se que os dados do seu perfil estão atualizados.</string>
+    <string name="str_candidatura">Candidatura</string>
+    <string name="str_pretencao_salarial">Pretenção salarial</string>
+    <string name="str_pretencao_salarial_label">%s€</string>
+    <string name="str_simbolo_euro">€</string>
+    <string name="str_observacoes">Observações</string>
+    <string name="str_mensagem">Mensagem</string>
+    <string name="str_detalhes_candidatura">Detalhes da candidatura</string>
+    <string name="str_data_criacao">Data de criação</string>
+    <string name="str_criar_reuniao_entrevista">Criar reunião da entrevista</string>
+    <string name="str_aceitar_candidatura">Aceitar candidatura</string>
+    <string name="str_rejeitar_candidatura">Rejeitar candidatura</string>
+    <!-- **************************** Candidaturas **************************** -->
+
+
+    <!-- **************************** Entrevistas **************************** -->
+    <!-- Ver entrevistas -->
+    <string name="str_entrevistas">Entrevistas</string>
+    <string name="str_candidato">Candidato</string>
+
+    <!-- Editar entrevista -->
+    <string name="str_editar_entrevista">Editar entrevista</string>
+    <string name="str_nome_candidato">Nome do candidato</string>
+    <string name="str_descricao_entrevista_asterisco">Descrição da entrevista *</string>
+
+    <!-- Detalhes entrevista -->
+    <string name="str_detalhes_entrevista">Detalhes da entrevista</string>
+    <string name="str_entrevista">Entrevista</string>
+    <string name="str_descricao">Descrição</string>
+    <string name="str_visualizar_notas_entrevista">Visualizar notas da entrevista</string>
+
+    <!-- Ver notas das entrevistas -->
+    <string name="str_notas_entrevista">Notas da entrevista</string>
+    <string name="str_autor_nota">Autor da nota</string>
+    <string name="str_texto_nota">Texto da nota</string>
+
+    <!-- Criar nota à entrevista -->
+    <string name="str_criar_nota">Criar nota</string>
+    <string name="str_adicionar_nota_entrevista">Adicionar uma nota à entrevista</string>
+    <string name="str_editar_nota_selecionada_entrevista">Editar a nota selecionada da entrevista</string>
+    <string name="str_observacoes_entrevista_asterisco">Observações da entrevista *</string>
+
+    <!-- Detalhes da nota da entrevista -->
+    <string name="str_detalhes_nota">Detalhes da nota</string>
+    <string name="str_nota">Nota</string>
+    <string name="str_autor">Autor</string>
+    <string name="str_texto">Texto</string>
+    <string name="str_editar_nota">Editar nota</string>
+    <!-- **************************** Entrevistas **************************** -->
+
+
+    <!-- **************************** Reuniões **************************** -->
+    <!-- Ver reuniões das entrevistas -->
+    <string name="str_reunioes_entrevistas">Reuniões das entrevistas</string>
+
+    <!-- Ver reuniões das oportunidades -->
+    <string name="str_reunioes_negocios">Reuniões dos negócios</string>
+
+    <!-- Criar reunião -->
+    <string name="str_criar_reuniao">Criar reunião</string>
+    <string name="str_titulo_reuniao_asterisco">Título da reunião *</string>
+    <string name="str_tipo_reuniao_asterisco">Tipo de reunião *</string>
+    <string name="str_reuniao_sobre_entrevista">Reunião sobre entrevista</string>
+    <string name="str_reuniao_sobre_oportunidade">Reunião sobre oportunidade</string>
+    <string name="str_data_inicio_reuniao_asterisco">Data de início da reunião *</string>
+    <string name="str_hora_inicio_reuniao_asterisco">Hora de início da reunião *</string>
+    <string name="str_data_fim_reuniao_asterisco">Data de fim da reunião *</string>
+    <string name="str_hora_fim_reuniao_asterisco">Hora de fim da reunião *</string>
+    <string name="str_descricao_reuniao_asterisco">Descrição da reunião *</string>
+    <string name="str_notificar_participantes_email">Notificar os participantes por e-mail</string>
+    <string name="str_aviso_previo_reuniao">Aviso prévio da reunião</string>
+    <string name="str_editar_reuniao_entrevista">Editar reunião da entrevista</string>
+    <string name="str_criar_reuniao_oportunidade">Criar reunião da oportunidade</string>
+    <string name="str_editar_reuniao_oportunidade">Editar reunião da oportunidade</string>
+
+    <!-- Detalhes da reunião -->
+    <string name="str_detalhes_reuniao">Detalhes da reunião</string>
+    <string name="str_titulo_reuniao">Título da reunião</string>
+    <string name="str_autor_reuniao">Autor da reunião</string>
+    <string name="str_tipo_reuniao">Tipo de reunião</string>
+    <string name="str_inicio_reuniao">Início da reunião</string>
+    <string name="str_fim_reuniao">Fim da reunião</string>
+    <string name="str_notificacao_reuniao">Notificação da reunião</string>
+    <string name="str_descricao_reuniao">Descrição da reunião</string>
+    <string name="str_editar_reuniao">Editar reunião</string>
+    <string name="str_adicionar_participantes_reuniao">Adicionar participantes à reunião</string>
+
+    <!-- Ver utilizadores da reunião -->
+    <string name="str_utilizadores_reuniao">Utilizadores da reunião</string>
+    <string name="str_observacao_utilizadores_reuniao"><b>Observação:</b> Ao adicionar um utilizador à reunião, ele não poderá ser removido posteriormente. Certifique-se de selecionar apenas os utilizadores que deseja incluir na reunião.</string>
+    <!-- **************************** Reuniões **************************** -->
+
+
+    <!-- **************************** Benefícios **************************** -->
+    <!-- Ver benefícios -->
+    <string name="str_beneficios">Benefícios</string>
+
+    <!-- Detalhes benefício -->
+    <string name="str_detalhes_beneficio">Detalhes do benefício</string>
+    <string name="str_imagem">Imagem</string>
+    <string name="str_editar_beneficio">Editar benefício</string>
+
+    <!-- Criar benefício -->
+    <string name="str_criar_beneficio">Criar benefício</string>
+    <string name="str_nome_beneficio_asterisco">Nome do benefício *</string>
+    <string name="str_subtitulo_beneficio_asterisco">Subtítulo do benefício *</string>
+    <string name="str_descricao_beneficio_asterisco">Descrição do benefício *</string>
+    <string name="str_imagem_beneficio">Imagem do benefício</string>
+    <string name="str_endereco_imagem">Endereço da imagem</string>
+    <string name="str_carregar_imagem">Carregar imagem</string>
+    <!-- **************************** Benefícios **************************** -->
+
+
+    <!-- **************************** Ideias **************************** -->
+    <!-- Ver ideias -->
+    <string name="str_ideias">Ideias</string>
+    <string name="str_titulo">Título</string>
+    <string name="str_data">Data</string>
+    <string name="str_ideias_propostas">Ideias propostas</string>
+    <string name="str_ideias_aceitas">Ideias aceitas</string>
+    <string name="str_ideias_rejeitadas">Ideias rejeitadas</string>
+    <string name="str_ideias_arquivadas">Ideias arquivadas</string>
+
+    <!-- Criar ideia -->
+    <string name="str_criar_ideia">Criar ideia</string>
+    <string name="str_titulo_ideia_asterisco">Título da ideia *</string>
+    <string name="str_titulo_ideia">Título da ideia</string>
+    <string name="str_descricao_ideia_asterisco">Descrição da ideia *</string>
+    <string name="str_topicos_ideia">Tópicos da ideia</string>
+    <string name="str_associar_topicos_ideia">Associar tópicos à ideia</string>
+
+    <!-- Enviar relatório da ideia -->
+    <string name="str_relatorio_ideia">Relatório da ideia</string>
+    <string name="str_observacao_ideia_aceite">Explique o motivo pela qual a ideia foi aceite, digitando-o numa mensagem para o autor da ideia e/ou para o administrador do sistema.</string>
+    <string name="str_observacao_ideia_rejeitada">Explique o motivo pela qual a ideia foi rejeitada, digitando-o numa mensagem para o autor da ideia e/ou para o administrador do sistema.</string>
+    <string name="str_informar_autor">Informar o autor</string>
+    <string name="str_relatorio_autor_asterisco">Relatório para o autor *</string>
+    <string name="str_informar_administrador">Informar o administrador</string>
+    <string name="str_relatorio_administrador_asterisco">Relatório para o administrador *</string>
+    <string name="str_enviar_relatorio">Enviar relatório</string>
+
+    <!-- Detalhes da ideia -->
+    <string name="str_detalhes_ideia">Detalhes da ideia</string>
+    <string name="str_autor_ideia">Autor da ideia</string>
+    <string name="str_estado_ideia">Estado da ideia</string>
+    <string name="str_descricao_ideia">Descrição da ideia</string>
+    <string name="str_editar_ideia">Editar ideia</string>
+    <string name="str_aceitar_ideia">Aceitar ideia</string>
+    <string name="str_rejeitar_ideia">Rejeitar ideia</string>
+    <string name="str_arquivar_ideia">Arquivar ideia</string>
+    <!-- **************************** Ideias **************************** -->
+
+
+    <!-- **************************** Oportunidades **************************** -->
+    <!-- Ver oportunidades -->
+    <string name="str_oportunidades">Oportunidades</string>
+    <string name="str_negocios">Negócios</string>
+    <string name="str_estagio">Estágio</string>
+    <string name="str_cliente">Cliente</string>
+
+    <!-- Ver etiquetas -->
+    <string name="str_areas_negocio">Áreas de negócio</string>
+
+    <!-- Ver estágios -->
+    <string name="str_estagios">Estágios</string>
+
+    <!-- Ver tipos de projetos -->
+    <string name="str_tipos_projetos">Tipos de projetos</string>
+
+    <!-- Ver relações estabelecidas -->
+    <string name="str_relacoes_estabelecidas">Relações estabelecidas</string>
+    <string name="str_interacoes_efetuadas_cliente">Interações efetuadas com o cliente</string>
+
+    <!-- Criar oportunidade -->
+    <string name="str_criar_negocio">Criar negócio</string>
+    <string name="str_titulo_negocio_asterisco">Título do negócio *</string>
+    <string name="str_valor_negocio">Valor do negócio</string>
+    <string name="str_descricao_negocio_asterisco">Descrição do negócio *</string>
+    <string name="str_cliente_negocio_asterisco">Cliente do negócio *</string>
+    <string name="str_area_negocio_asterisco">Área do negócio *</string>
+    <string name="str_tipo_projeto_negocio_asterisco">Tipo de projeto do negócio *</string>
+    <string name="str_estagio_negocio_asterisco">Estágio do negócio *</string>
+
+    <!-- Detalhes do negócio -->
+    <string name="str_detalhes_negocio">Detalhes do negócio</string>
+    <string name="str_titulo_negocio">Título do negócio</string>
+    <string name="str_valor_negocio_label">%s€</string>
+    <string name="str_nome_area_negocio">Nome da área de negócio</string>
+    <string name="str_nome_tipo_projeto">Nome do tipo de projeto</string>
+    <string name="str_nome_estagio">Nome do estágio</string>
+    <string name="str_nome_cliente">Nome do cliente</string>
+    <string name="str_telefone_cliente">Telefone do cliente</string>
+    <string name="str_email_cliente">E-mail do cliente</string>
+    <string name="str_autor_negocio">Autor do negócio</string>
+    <string name="str_descricao_negocio">Descrição do negócio</string>
+    <string name="str_editar_negocio">Editar negócio</string>
+    <string name="str_visualizar_relacoes_estabelecidas">Visualizar relações estabelecidas</string>
+    <string name="str_contactar_cliente">Contactar cliente</string>
+
+    <!-- Detalhes da interação -->
+    <string name="str_detalhes_interacao">Detalhes da interação</string>
+    <string name="str_titulo_interacao">Título da interação</string>
+    <string name="str_descricao_interacao">Descrição da interação</string>
+    <string name="str_endereco_anexo_interacao">Endereço do anexo da interação</string>
+    <string name="str_editar_interacao">Editar interação</string>
+
+    <!-- Criar etiqueta -->
+    <string name="str_criar_area_negocio">Criar área de negócio</string>
+    <string name="str_nome_area_negocio_asterisco">Nome da área de negócio *</string>
+
+    <!-- Criar estágio -->
+    <string name="str_criar_estagio_negocio">Criar estágio do negócio</string>
+    <string name="str_nome_estagio_negocio_asterisco">Nome do estágio de negócio *</string>
+
+    <!-- Criar tipo de projeto -->
+    <string name="str_criar_tipo_projeto">Criar tipo de projeto</string>
+    <string name="str_nome_tipo_projeto_asterisco">Nome do tipo de projeto *</string>
+    <string name="str_editar_tipo_projeto">Editar tipo de projeto</string>
+
+    <!-- Criar interação -->
+    <string name="str_criar_interacao">Criar interação</string>
+    <string name="str_estabelecer_relacao_cliente">Estabelecer relação com o cliente</string>
+    <string name="str_titulo_interacao_asterisco">Título da interação *</string>
+    <string name="str_descricao_interacao_asterisco">Descrição da interação *</string>
+    <string name="str_endereco_anexo">Endereço do anexo</string>
+    <string name="str_editar_relacao_estabelecida">Editar relação estabelecida</string>
+    <!-- **************************** Oportunidades **************************** -->
+
+
+    <!-- **************************** Clientes **************************** -->
+    <!-- Ver clientes -->
+    <string name="str_clientes">Clientes</string>
+    <string name="str_telefone">Telefone</string>
+
+    <!-- Ver contactos do cliente -->
+    <string name="str_contactos_cliente">Contactos do cliente</string>
+    <string name="str_nome_empresa">Nome da empresa</string>
+    <string name="str_email_principal_empresa">Email principal da empresa</string>
+    <string name="str_telefone_principal_empresa">Telefone principal da empresa</string>
+
+    <!-- Criar cliente -->
+    <string name="str_criar_cliente">Criar cliente</string>
+    <string name="str_nome_empresa_asterisco">Nome da empresa *</string>
+    <string name="str_email_empresa_asterisco">Email da empresa *</string>
+    <string name="str_telefone_empresa_asterisco">Telefone da empresa *</string>
+    <string name="str_descricao_empresa_asterisco">Descrição da empresa *</string>
+
+    <!-- Detalhes do cliente -->
+    <string name="str_detalhes_cliente">Detalhes do cliente</string>
+    <string name="str_descricao_cliente">Descrição do cliente</string>
+    <string name="str_autor_cliente">Autor do cliente</string>
+    <string name="str_editar_cliente">Editar cliente</string>
+    <string name="str_visualizar_contactos_cliente">Visualizar contactos do cliente</string>
+
+    <!-- Criar contacto -->
+    <string name="str_criar_contacto">Criar contacto</string>
+    <string name="str_adicionar_contacto_cliente">Adicionar um contacto ao cliente</string>
+    <string name="str_editar_contacto_selecionado_cliente">Editar o contacto selecionado do cliente</string>
+
+    <!-- Detalhes do contacto -->
+    <string name="str_detalhes_contacto">Detalhes do contacto</string>
+    <string name="str_contacto_eletronico">Contacto eletrónico</string>
+    <string name="str_contacto_telefonico">Contacto telefónico</string>
+    <string name="str_editar_contacto">Editar contacto</string>
+    <!-- **************************** Clientes **************************** -->
+
+
+    <!-- **************************** Administração **************************** -->
+    <!-- Ver administração -->
+    <string name="str_administracao">Administração</string>
+    <string name="str_utilizadores">Utilizadores</string>
+    <string name="str_inicio">Início</string>
+    <string name="str_fim">Fim</string>
+    <string name="str_tipo">Tipo</string>
+    <string name="str_nome_topico">Nome do tópico</string>
+
+    <!-- Criar utilizador -->
+    <string name="str_criar_utilizador">Criar utilizador</string>
+    <string name="str_tipo_cargo_asterisco">Tipo de cargo *</string>
+
+    <!-- Detalhes do utilizador -->
+    <string name="str_detalhes_utilizador">Detalhes do utilizador</string>
+    <string name="str_cargo">Cargo</string>
+    <string name="str_editar_utilizador">Editar utilizador</string>
+    <string name="str_ativar_utilizador">Ativar utilizador</string>
+    <string name="str_desativar_utilizador">Desativar utilizador</string>
+
+    <!-- Criar localidade -->
+    <string name="str_criar_localidade">Criar localidade</string>
+    <string name="str_nome_localidade_asterisco">Nome da localidade *</string>
+    <string name="str_editar_localidade">Editar localidade</string>
+
+    <!-- Criar tópico das ideias -->
+    <string name="str_criar_topico">Criar tópico</string>
+    <string name="str_nome_topico_ideias_asterisco">Nome do tópico das ideias *</string>
+    <string name="str_guardar">Guardar</string>
+    <string name="str_editar_topico">Editar tópico</string>
+    <!-- **************************** Administração **************************** -->
+
+
+    <!-- **************************** Configurações **************************** -->
+    <!-- Configurações -->
+    <string name="str_configuracoes">Configurações</string>
+    <string name="str_editar_perfil">Editar perfil</string>
+    <string name="str_ver_eventos">Ver eventos</string>
+    <string name="str_ver_notificacoes">Ver notificações</string>
+    <string name="str_acerca">Acerca</string>
+    <string name="versao_app">Versão: %s</string>
+    <!-- **************************** Configurações **************************** -->
+</resources>

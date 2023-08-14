@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/relatorio_ideia_txt_titulo_janela"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="@string/str_relatorio_ideia"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/relatorio_ideia_txt_titulo_ideia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/str_textview"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/relatorio_ideia_txt_titulo_janela" />
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/relatorio_ideia_txt_titulo_ideia">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:id="@+id/relatorio_ideia_linearLayout_main"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="32dp"
+                android:orientation="vertical"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <TextView
+                    android:id="@+id/relatorio_ideia_txt_observacao_relatorio"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:justificationMode="inter_word"
+                    android:text="@string/str_observacao_ideia_aceite"
+                    android:textSize="16sp" />
+
+                <CheckBox
+                    android:id="@+id/relatorio_ideia_chbx_informar_autor"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:checked="true"
+                    android:enabled="false"
+                    android:minHeight="48dp"
+                    android:text="@string/str_informar_autor" />
+
+                <TextView
+                    android:id="@+id/relatorio_ideia_txt_relatorio_autor"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/str_relatorio_autor_asterisco" />
+
+                <EditText
+                    android:id="@+id/relatorio_ideia_edtxt_relatorio_autor"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:height="200dp"
+                    android:ems="10"
+                    android:gravity="start|top"
+                    android:hint="@string/str_relatorio_autor_asterisco"
+                    android:importantForAccessibility="no"
+                    android:importantForAutofill="no"
+                    android:inputType="textMultiLine"
+                    android:minHeight="48dp" />
+
+                <CheckBox
+                    android:id="@+id/relatorio_ideia_chbx_informar_administrador"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:checked="false"
+                    android:enabled="true"
+                    android:minHeight="48dp"
+                    android:text="@string/str_informar_administrador" />
+
+                <TextView
+                    android:id="@+id/relatorio_ideia_txt_relatorio_administrador"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/str_relatorio_administrador_asterisco" />
+
+                <EditText
+                    android:id="@+id/relatorio_ideia_edtxt_relatorio_administrador"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:height="200dp"
+                    android:ems="10"
+                    android:gravity="start|top"
+                    android:hint="@string/str_relatorio_administrador_asterisco"
+                    android:importantForAccessibility="no"
+                    android:importantForAutofill="no"
+                    android:inputType="textMultiLine"
+                    android:minHeight="48dp" />
+
+                <Button
+                    android:id="@+id/relatorio_ideia_btn_enviar_relatorio"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/button_background_primary"
+                    android:text="@string/str_enviar_relatorio"
+                    android:textColor="@color/white" />
+
+            </LinearLayout>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

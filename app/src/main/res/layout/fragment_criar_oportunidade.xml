@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/criar_negocio_txt_titulo_janela"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="@string/str_criar_negocio"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/criar_negocio_txt_titulo_janela">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:id="@+id/criar_negocio_linearLayout_main"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="32dp"
+                android:orientation="vertical"
+                android:visibility="visible"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <TextView
+                    android:id="@+id/criar_negocio_txt_titulo_negocio"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/str_titulo_negocio_asterisco" />
+
+                <EditText
+                    android:id="@+id/criar_negocio_edtxt_titulo_negocio"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="@string/str_titulo_negocio_asterisco"
+                    android:importantForAutofill="no"
+                    android:inputType="textPersonName"
+                    android:minHeight="48dp" />
+
+                <TextView
+                    android:id="@+id/criar_negocio_txt_valor_negocio"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/str_valor_negocio" />
+
+                <LinearLayout
+                    android:id="@+id/criar_negocio_linearLayout_valor_negocio"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <EditText
+                        android:id="@+id/criar_negocio_edtxt_valor_negocio"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:ems="10"
+                        android:hint="@string/str_valor_negocio"
+                        android:importantForAutofill="no"
+                        android:inputType="number"
+                        android:minHeight="48dp" />
+
+                    <TextView
+                        android:id="@+id/criar_negocio_txt_simbolo_euro"
+                        android:layout_width="30dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="end"
+                        android:text="@string/str_simbolo_euro"
+                        android:textSize="20sp" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/criar_negocio_txt_descricao_negocio"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/str_descricao_negocio_asterisco" />
+
+                <EditText
+                    android:id="@+id/criar_negocio_edtxt_descricao_negocio"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:height="200dp"
+                    android:ems="10"
+                    android:gravity="start|top"
+                    android:hint="@string/str_descricao_negocio_asterisco"
+                    android:importantForAccessibility="no"
+                    android:importantForAutofill="no"
+                    android:inputType="textMultiLine"
+                    android:minHeight="48dp" />
+
+                <TextView
+                    android:id="@+id/criar_negocio_txt_cliente_negocio"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/str_cliente_negocio_asterisco" />
+
+                <Spinner
+                    android:id="@+id/criar_negocio_spinner_clientes_negocio"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:importantForAccessibility="no"
+                    android:minHeight="48dp"
+                    android:visibility="visible" />
+
+                <TextView
+                    android:id="@+id/criar_negocio_txt_etiqueta_negocio"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/str_area_negocio_asterisco" />
+
+                <Spinner
+                    android:id="@+id/criar_negocio_spinner_etiquetas_negocio"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:importantForAccessibility="no"
+                    android:minHeight="48dp" />
+
+                <TextView
+                    android:id="@+id/criar_negocio_txt_tipo_projeto_negocio"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/str_tipo_projeto_negocio_asterisco" />
+
+                <Spinner
+                    android:id="@+id/criar_negocio_spinner_tipos_projetos_negocio"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:importantForAccessibility="no"
+                    android:minHeight="48dp"
+                    android:visibility="visible" />
+
+                <TextView
+                    android:id="@+id/criar_negocio_txt_estagio_negocio"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/str_estagio_negocio_asterisco" />
+
+                <Spinner
+                    android:id="@+id/criar_negocio_spinner_estagios_negocio"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:importantForAccessibility="no"
+                    android:minHeight="48dp" />
+
+                <Button
+                    android:id="@+id/criar_negocio_btn_criar_negocio"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/button_background_primary"
+                    android:text="@string/str_criar_negocio"
+                    android:textColor="@color/white" />
+            </LinearLayout>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
